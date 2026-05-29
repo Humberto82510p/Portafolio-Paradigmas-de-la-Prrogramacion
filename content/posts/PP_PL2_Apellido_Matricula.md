@@ -1,3 +1,9 @@
+---
+title: "Mi Reporte Pract. 2"
+date: 2026-05-28
+draft: false
+---
+
 # Práctica 02: Simulador de Estacionamiento
 
 **Universidad Autónoma de Baja California**  
