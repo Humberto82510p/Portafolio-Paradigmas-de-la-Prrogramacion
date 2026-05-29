@@ -1,5 +1,5 @@
 ---
-title: "Mi Reporte"
+title: "Mi Reporte Pract. 0"
 date: 2026-05-28
 draft: false
 ---
