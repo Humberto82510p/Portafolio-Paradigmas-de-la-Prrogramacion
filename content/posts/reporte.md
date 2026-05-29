@@ -1,6 +1,6 @@
 ---
 title: "Mi Reporte"
-date: 2026-05-27
+date: 2026-05-28
 draft: false
 ---
 ## Materia: 
@@ -90,7 +90,7 @@ Markdown permite estructurar documentos de manera clara, sencilla y portable, fa
 
 Git es un sistema de control de versiones distribuido, lo que significa que cada copia local de un proyecto contiene un historial completo de cambios.
 
-Cada clon del proyecto es un repositorio completamente funcional. Esto permite trabajar:
+Cada clon del este proyecto es un repositorio completamente funcional. Esto permite trabajar:
 
 - Sin conexión a internet.
 - De forma remota.
