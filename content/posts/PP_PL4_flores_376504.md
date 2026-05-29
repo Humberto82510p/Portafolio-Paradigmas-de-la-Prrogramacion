@@ -1,3 +1,11 @@
+---
+title: "Mi Reporte Pract. 4"
+date: 2026-05-28
+draft: false
+---
+
+
+
 # REPORTE DE PRÁCTICAS DE LABORATORIO
 ## PARADIGMA DE PROGRAMACIÓN LÓGICA CON PROLOG
 
