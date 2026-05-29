@@ -11,8 +11,8 @@ draft: false
 **Materia:** 40032 – Paradigmas de la Programación  
 **Docente:** M.I. José Carlos Gallegos Mariscal  
 **Grupo:** 941  
-**Alumno:** [Nombre Apellido]  
-**Matrícula:** [Número de matrícula]
+**Alumno:** Humberto Flores Espero  
+**Matrícula:** 376504
 
 ---
 
