@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mi Portafolio</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Mi Portafolio</description>
+    <generator>Hugo</generator>
+    <language>es-mx</language>
+    <lastBuildDate>Wed, 27 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mi Reporte</title>
+      <link>http://localhost:1313/posts/reporte/</link>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/reporte/</guid>
+      <description>&lt;h2 id=&#34;materia&#34;&gt;Materia:&lt;/h2&gt;
+&lt;p&gt;Paradigmas de la Programación&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;práctica-0--uso-de-repositorios&#34;&gt;Práctica 0:  Uso de repositorios&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;alumno&#34;&gt;Alumno:&lt;/h3&gt;
+&lt;p&gt;Flores Espero Humberto
+&lt;strong&gt;Matrícula:&lt;/strong&gt; 376504&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;docente&#34;&gt;Docente:&lt;/h3&gt;
+&lt;p&gt;Jose Carlos Gallegos Mariscal&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;grupo&#34;&gt;Grupo:&lt;/h3&gt;
+&lt;p&gt;941&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Ensenada, B.C. a 20 de febrero de 2026&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;primera-sesión-markdown&#34;&gt;PRIMERA SESIÓN: MARKDOWN&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;qué-es-markdown&#34;&gt;¿Qué es Markdown?&lt;/h2&gt;
+&lt;p&gt;Markdown fue desarrollado en 2004 por John Gruber, y se refiere tanto a una manera de dar formato a archivos de texto plano, como a una utilidad escrita en el lenguaje de programación Perl para convertir archivos Markdown en HTML.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

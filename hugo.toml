@@ -1,0 +1,4 @@
+baseURL = 'https://Humberto82510p.github.io/'
+languageCode = 'es-mx'
+title = 'Mi Portafolio'
+theme = 'PaperMod'

@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Mi Reporte | Mi Portafolio</title>
+<meta name="keywords" content="">
+<meta name="description" content="Materia:
+Paradigmas de la Programación
+
+Práctica 0:  Uso de repositorios
+
+Alumno:
+Flores Espero Humberto
+Matrícula: 376504
+
+Docente:
+Jose Carlos Gallegos Mariscal
+
+Grupo:
+941
+
+Ensenada, B.C. a 20 de febrero de 2026
+
+PRIMERA SESIÓN: MARKDOWN
+
+¿Qué es Markdown?
+Markdown fue desarrollado en 2004 por John Gruber, y se refiere tanto a una manera de dar formato a archivos de texto plano, como a una utilidad escrita en el lenguaje de programación Perl para convertir archivos Markdown en HTML.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/reporte/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/reporte/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Mi Portafolio (Alt + H)">Mi Portafolio</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Mi Reporte
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-05-27 00:00:00 +0000 UTC'>27 de mayo de 2026</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><h2 id="materia">Materia:<a hidden class="anchor" aria-hidden="true" href="#materia">#</a></h2>
+<p>Paradigmas de la Programación</p>
+<hr>
+<h2 id="práctica-0--uso-de-repositorios">Práctica 0:  Uso de repositorios<a hidden class="anchor" aria-hidden="true" href="#práctica-0--uso-de-repositorios">#</a></h2>
+<hr>
+<h3 id="alumno">Alumno:<a hidden class="anchor" aria-hidden="true" href="#alumno">#</a></h3>
+<p>Flores Espero Humberto
+<strong>Matrícula:</strong> 376504</p>
+<hr>
+<h3 id="docente">Docente:<a hidden class="anchor" aria-hidden="true" href="#docente">#</a></h3>
+<p>Jose Carlos Gallegos Mariscal</p>
+<hr>
+<h3 id="grupo">Grupo:<a hidden class="anchor" aria-hidden="true" href="#grupo">#</a></h3>
+<p>941</p>
+<hr>
+<p>Ensenada, B.C. a 20 de febrero de 2026</p>
+<hr>
+<h1 id="primera-sesión-markdown">PRIMERA SESIÓN: MARKDOWN<a hidden class="anchor" aria-hidden="true" href="#primera-sesión-markdown">#</a></h1>
+<hr>
+<h2 id="qué-es-markdown">¿Qué es Markdown?<a hidden class="anchor" aria-hidden="true" href="#qué-es-markdown">#</a></h2>
+<p>Markdown fue desarrollado en 2004 por John Gruber, y se refiere tanto a una manera de dar formato a archivos de texto plano, como a una utilidad escrita en el lenguaje de programación Perl para convertir archivos Markdown en HTML.</p>
+<p>En esta práctica nos centraremos en la primera acepción: aprender a escribir archivos utilizando la sintaxis de Markdown para estructurar información de manera clara y semántica.</p>
+<hr>
+<h2 id="cómo-se-utiliza">¿Cómo se utiliza?<a hidden class="anchor" aria-hidden="true" href="#cómo-se-utiliza">#</a></h2>
+<p>Markdown funciona bajo un principio muy simple:</p>
+<p><em>Usa símbolos especiales para representar la estructura semántica del contenido.</em></p>
+<p>Es decir, ciertos caracteres indican qué tipo de contenido es el texto.</p>
+<p>Por ejemplo:</p>
+<ul>
+<li><code>#</code> indica un encabezado.</li>
+<li><code>*</code> o <code>_</code> indican énfasis.</li>
+<li><code>-</code> indica una lista.</li>
+<li><code>`</code> indica código.</li>
+</ul>
+<p>Estos símbolos no son decoración, sino marcas semánticas que describen la función del texto dentro del documento.</p>
+<hr>
+<h2 id="cuál-es-su-sintaxis">¿Cuál es su sintaxis?<a hidden class="anchor" aria-hidden="true" href="#cuál-es-su-sintaxis">#</a></h2>
+<p>La sintaxis de Markdown se caracteriza por ser:</p>
+<ul>
+<li><strong>Lineal</strong> → Se interpreta línea por línea.</li>
+<li><strong>Basada en prefijos y delimitadores</strong> → Usa símbolos antes o alrededor del texto.</li>
+<li><strong>Sensible al contexto</strong> → Lo que está antes y después influye en la interpretación.</li>
+<li><strong>No estrictamente tipada</strong> → No requiere declarar tipos de datos.</li>
+<li><strong>No compilada</strong> → Se interpreta o transforma (por ejemplo, a HTML).</li>
+</ul>
+<hr>
+<h3 id="conclusión">Conclusión<a hidden class="anchor" aria-hidden="true" href="#conclusión">#</a></h3>
+<p>Markdown permite estructurar documentos de manera clara, sencilla y portable, facilitando la conversión a otros formatos como HTML o PDF.</p>
+<hr>
+<h1 id="segunda-sesión-git-y-github">SEGUNDA SESIÓN: GIT Y GITHUB<a hidden class="anchor" aria-hidden="true" href="#segunda-sesión-git-y-github">#</a></h1>
+<h2 id="qué-es-git-y-github">¿Qué es Git y GitHub?<a hidden class="anchor" aria-hidden="true" href="#qué-es-git-y-github">#</a></h2>
+<h3 id="git">Git<a hidden class="anchor" aria-hidden="true" href="#git">#</a></h3>
+<p>Git es un sistema de control de versiones distribuido, lo que significa que cada copia local de un proyecto contiene un historial completo de cambios.</p>
+<p>Cada clon del proyecto es un repositorio completamente funcional. Esto permite trabajar:</p>
+<ul>
+<li>Sin conexión a internet.</li>
+<li>De forma remota.</li>
+<li>Con historial completo del proyecto.</li>
+</ul>
+<p>Git administra la evolución del código a través del tiempo.</p>
+<hr>
+<h3 id="github">GitHub<a hidden class="anchor" aria-hidden="true" href="#github">#</a></h3>
+<p>GitHub es una plataforma en línea que utiliza Git.</p>
+<p>En términos simples, es un servicio de alojamiento (hosting) para repositorios Git. Permite almacenar proyectos en la nube y facilitar la colaboración entre múltiples desarrolladores.</p>
+<hr>
+<h2 id="cómo-se-utilizan">¿Cómo se utilizan?<a hidden class="anchor" aria-hidden="true" href="#cómo-se-utilizan">#</a></h2>
+<h3 id="git-1">Git<a hidden class="anchor" aria-hidden="true" href="#git-1">#</a></h3>
+<p>Git se utiliza como un sistema de registro histórico estructurado. Su funcionamiento se basa en tres ideas fundamentales:</p>
+<hr>
+<h3 id="1-registro-de-cambios">1. Registro de cambios<a hidden class="anchor" aria-hidden="true" href="#1-registro-de-cambios">#</a></h3>
+<p>Cada modificación en un proyecto puede convertirse en una versión formal llamada commit.</p>
+<p>Esto permite:</p>
+<ul>
+<li>Conservar el historial.</li>
+<li>Recuperar estados anteriores.</li>
+<li>Identificar errores.</li>
+<li>Comparar versiones.</li>
+</ul>
+<hr>
+<h3 id="2-trabajo-en-líneas-paralelas-ramas">2. Trabajo en líneas paralelas (ramas)<a hidden class="anchor" aria-hidden="true" href="#2-trabajo-en-líneas-paralelas-ramas">#</a></h3>
+<p>Git permite dividir el desarrollo en múltiples líneas independientes llamadas ramas (branches).</p>
+<p>Una rama es una línea alternativa de evolución del proyecto.</p>
+<p>Esto permite:</p>
+<ul>
+<li>Probar nuevas funciones sin afectar la versión principal.</li>
+<li>Trabajar en paralelo.</li>
+<li>Desarrollar características experimentales sin comprometer estabilidad.</li>
+</ul>
+<hr>
+<h3 id="3-integración-de-cambios">3. Integración de cambios<a hidden class="anchor" aria-hidden="true" href="#3-integración-de-cambios">#</a></h3>
+<p>Después de trabajar en paralelo, los cambios pueden integrarse nuevamente en una línea principal mediante procesos de fusión (merge).</p>
+<p>Esto mantiene coherencia en el desarrollo del proyecto.</p>
+<hr>
+<h2 id="github-1">GitHub:<a hidden class="anchor" aria-hidden="true" href="#github-1">#</a></h2>
+<h3 id="uso-como-repositorio-remoto">Uso como repositorio remoto:<a hidden class="anchor" aria-hidden="true" href="#uso-como-repositorio-remoto">#</a></h3>
+<p>GitHub actúa como un punto central donde:</p>
+<ul>
+<li>Se almacenan proyectos.</li>
+<li>Se sincronizan cambios.</li>
+<li>Se respaldan versiones.</li>
+<li>Se comparte el código.</li>
+</ul>
+<p>Permite que múltiples personas trabajen sobre el mismo proyecto.</p>
+<hr>
+<h3 id="uso-colaborativo">Uso colaborativo:<a hidden class="anchor" aria-hidden="true" href="#uso-colaborativo">#</a></h3>
+<p>GitHub introduce dinámicas sociales y organizativas como:</p>
+<ul>
+<li><strong>Pull Requests</strong> → Solicitudes para integrar cambios.</li>
+<li><strong>Revisión de código</strong>.</li>
+<li><strong>Gestión de incidencias (Issues)</strong>.</li>
+<li><strong>Documentación compartida</strong>.</li>
+</ul>
+<hr>
+<h3 id="coordinación-de-equipos">Coordinación de equipos<a hidden class="anchor" aria-hidden="true" href="#coordinación-de-equipos">#</a></h3>
+<p>GitHub funciona como un entorno de coordinación distribuida para el desarrollo colaborativo.</p>
+<p>Mientras Git gestiona la historia técnica del código, GitHub gestiona la interacción entre personas.</p>
+<hr>
+<h2 id="cuáles-son-sus-comandos-esenciales">¿Cuáles son sus comandos esenciales?<a hidden class="anchor" aria-hidden="true" href="#cuáles-son-sus-comandos-esenciales">#</a></h2>
+<h3 id="git-2">Git<a hidden class="anchor" aria-hidden="true" href="#git-2">#</a></h3>
+<ul>
+<li><code>git init</code> → Inicia un repositorio nuevo.</li>
+<li><code>git clone</code> → Copia un repositorio existente.</li>
+<li><code>git config</code> → Configura datos del usuario.</li>
+<li><code>git add</code> → Prepara archivos para guardar.</li>
+<li><code>git commit</code> → Guarda una versión del proyecto.</li>
+<li><code>git status</code> → Muestra el estado actual.</li>
+<li><code>git log</code> → Muestra el historial de versiones.</li>
+<li><code>git branch</code> → Crea o lista ramas.</li>
+<li><code>git checkout</code> → Cambia de rama o versión.</li>
+<li><code>git merge</code> → Une ramas.</li>
+<li><code>git remote</code> → Administra repositorios remotos.</li>
+<li><code>git push</code> → Sube cambios al repositorio remoto.</li>
+<li><code>git pull</code> → Descarga y fusiona cambios.</li>
+<li><code>git fetch</code> → Descarga cambios sin fusionar.</li>
+<li><code>git reset</code> → Revierte cambios o commits.</li>
+<li><code>git rm</code> → Elimina archivos del repositorio.</li>
+<li><code>git mv</code> → Mueve o renombra archivos.</li>
+</ul>
+<hr>
+<h3 id="github-funciones-principales">GitHub (Funciones principales)<a hidden class="anchor" aria-hidden="true" href="#github-funciones-principales">#</a></h3>
+<ul>
+<li><strong>Pull Request</strong> → Solicitud para integrar cambios.</li>
+<li><strong>Fork</strong> → Copia un repositorio a tu cuenta.</li>
+<li><strong>Issues</strong> → Gestión de tareas o errores.</li>
+<li><strong>Actions</strong> → Automatización de procesos.</li>
+</ul>
+<hr>
+<h2 id="cómo-se-crea-un-repositorio">¿Cómo se crea un repositorio?<a hidden class="anchor" aria-hidden="true" href="#cómo-se-crea-un-repositorio">#</a></h2>
+<h3 id="en-git-local">En Git (local):<a hidden class="anchor" aria-hidden="true" href="#en-git-local">#</a></h3>
+<ol>
+<li>Crear o elegir una carpeta del proyecto.</li>
+<li>Inicializar Git en esa carpeta.</li>
+<li>Configurar identidad (si es necesario).</li>
+<li>Agregar archivos al control de versiones.</li>
+<li>Crear el primer commit.</li>
+</ol>
+<hr>
+<h3 id="en-github-remoto">En GitHub (remoto):<a hidden class="anchor" aria-hidden="true" href="#en-github-remoto">#</a></h3>
+<ol>
+<li>Iniciar sesión en GitHub.</li>
+<li>Crear un nuevo repositorio desde el panel principal.</li>
+<li>Definir:
+<ul>
+<li>Nombre del repositorio.</li>
+<li>Descripción (opcional).</li>
+<li>Público o privado.</li>
+</ul>
+</li>
+<li>Confirmar la creación.</li>
+<li>(Opcional) Conectar el repositorio local con el remoto para sincronizar cambios.</li>
+</ol>
+<hr>
+<h3 id="conclusión-1">Conclusión:<a hidden class="anchor" aria-hidden="true" href="#conclusión-1">#</a></h3>
+<p>Git permite controlar la evolución técnica del código a lo largo del tiempo, mientras que GitHub facilita la colaboración, sincronización y organización del desarrollo en equipo.</p>
+<hr>
+<h1 id="tercera-sesión-hugo-y-github-actions">TERCERA SESIÓN: HUGO Y GITHUB ACTIONS<a hidden class="anchor" aria-hidden="true" href="#tercera-sesión-hugo-y-github-actions">#</a></h1>
+<h2 id="qué-es-hugo">¿Qué es Hugo?<a hidden class="anchor" aria-hidden="true" href="#qué-es-hugo">#</a></h2>
+<p>Hugo es un generador de sitios estáticos (Static Site Generator) escrito en el lenguaje Go.</p>
+<p>Su función es transformar archivos de contenido (generalmente en Markdown) en un sitio web estático compuesto por archivos HTML, CSS y JavaScript listos para ser publicados.</p>
+<p>Características principales:</p>
+<ul>
+<li>Es muy rápido.</li>
+<li>No requiere base de datos.</li>
+<li>Genera sitios seguros (al ser estáticos).</li>
+<li>Es ideal para blogs, documentación y portafolios.</li>
+</ul>
+<p>Hugo separa:</p>
+<ul>
+<li><strong>Contenido</strong> (archivos Markdown).</li>
+<li><strong>Diseño</strong> (temas y plantillas).</li>
+<li><strong>Configuración</strong> (archivo config).</li>
+</ul>
+<hr>
+<h2 id="qué-es-github-actions">¿Qué es GitHub Actions?<a hidden class="anchor" aria-hidden="true" href="#qué-es-github-actions">#</a></h2>
+<p>GitHub Actions es una herramienta de automatización integrada en GitHub.</p>
+<p>Permite ejecutar procesos automáticos cada vez que ocurre un evento en el repositorio, como:</p>
+<ul>
+<li>Hacer un push.</li>
+<li>Crear un pull request.</li>
+<li>Publicar una nueva versión.</li>
+</ul>
+<p>En esta práctica se utiliza para:</p>
+<ul>
+<li>Construir automáticamente el sitio generado con Hugo.</li>
+<li>Publicarlo en GitHub Pages sin intervención manual.</li>
+</ul>
+<hr>
+<h2 id="qué-es-github-pages">¿Qué es GitHub Pages?<a hidden class="anchor" aria-hidden="true" href="#qué-es-github-pages">#</a></h2>
+<p>GitHub Pages es un servicio que permite publicar sitios web estáticos directamente desde un repositorio de GitHub.</p>
+<p>Funciona como alojamiento gratuito para:</p>
+<ul>
+<li>Proyectos personales.</li>
+<li>Portafolios.</li>
+<li>Documentación.</li>
+<li>Blogs.</li>
+</ul>
+<p>El sitio queda disponible en una dirección como:
+<a href="https://usuario.github.io/repositorio">https://usuario.github.io/repositorio</a></p>
+<hr>
+<h2 id="cómo-crear-un-sitio-estático-con-hugo">¿Cómo crear un sitio estático con Hugo?<a hidden class="anchor" aria-hidden="true" href="#cómo-crear-un-sitio-estático-con-hugo">#</a></h2>
+<p>Proceso general:</p>
+<ol>
+<li>Instalar Hugo en el sistema.</li>
+<li>Crear un nuevo sitio: hugo new site nombre-del-sitio</li>
+<li>Elegir e instalar un tema.</li>
+<li>Crear contenido en formato Markdown:hugo new posts/mi-entrada.md</li>
+<li>Ejecutar servidor local para pruebas:hugo server</li>
+<li>Generar los archivos estáticos finales:</li>
+</ol>
+<p>Hugo generará una carpeta llamada <code>public/</code> que contiene el sitio listo para ser publicado.</p>
+<hr>
+<h2 id="cómo-subir-el-sitio-a-github">¿Cómo subir el sitio a GitHub?<a hidden class="anchor" aria-hidden="true" href="#cómo-subir-el-sitio-a-github">#</a></h2>
+<ol>
+<li>Inicializar el repositorio Git (si no existe).</li>
+<li>Agregar los archivos del proyecto.</li>
+<li>Hacer commit.</li>
+<li>Conectar el repositorio con GitHub.</li>
+<li>Subir los cambios con push.</li>
+</ol>
+<p>El repositorio contendrá:</p>
+<ul>
+<li>Archivos de configuración.</li>
+<li>Contenido en Markdown.</li>
+<li>Tema.</li>
+<li>Configuración de GitHub Actions.</li>
+</ul>
+<hr>
+<h2 id="cómo-configurar-github-actions-para-publicar-el-sitio">¿Cómo configurar GitHub Actions para publicar el sitio?<a hidden class="anchor" aria-hidden="true" href="#cómo-configurar-github-actions-para-publicar-el-sitio">#</a></h2>
+<ol>
+<li>
+<p>Crear una carpeta dentro del repositorio llamada: .github/workflows/</p>
+</li>
+<li>
+<p>Crear un archivo YAML (por ejemplo: <code>hugo.yml</code>).</p>
+</li>
+<li>
+<p>Definir el flujo de trabajo que:</p>
+</li>
+</ol>
+<ul>
+<li>Instale Hugo.</li>
+<li>Compile el sitio.</li>
+<li>Publique la carpeta generada en GitHub Pages.</li>
+</ul>
+<p>El proceso es automático:</p>
+<ul>
+<li>Cada vez que se haga un push a la rama principal.</li>
+<li>GitHub Actions construirá el sitio.</li>
+<li>Lo desplegará en GitHub Pages.</li>
+</ul>
+<hr>
+<h2 id="integración-de-conocimientos">Integración de conocimientos<a hidden class="anchor" aria-hidden="true" href="#integración-de-conocimientos">#</a></h2>
+<p>En esta sesión se combinan los conocimientos previos:</p>
+<ul>
+<li><strong>Markdown</strong> → Para escribir el contenido.</li>
+<li><strong>Git</strong> → Para versionar el proyecto.</li>
+<li><strong>GitHub</strong> → Para alojar el repositorio.</li>
+<li><strong>Hugo</strong> → Para generar el sitio web.</li>
+<li><strong>GitHub Actions</strong> → Para automatizar la publicación.</li>
+</ul>
+<hr>
+<h2 id="conclusión-2">Conclusión<a hidden class="anchor" aria-hidden="true" href="#conclusión-2">#</a></h2>
+<p>La integración de Hugo con GitHub Actions permite crear un flujo de trabajo profesional donde:</p>
+<ul>
+<li>El contenido se escribe en Markdown.</li>
+<li>Se versiona con Git.</li>
+<li>Se almacena en GitHub.</li>
+<li>Se publica automáticamente en GitHub Pages.</li>
+</ul>
+<p>Este proceso representa una práctica real utilizada en entornos profesionales para el desarrollo y despliegue de sitios web estáticos.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Mi Portafolio</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
